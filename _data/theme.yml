@@ -10,9 +10,9 @@
 # use either an objectid (from an item in this collect), a relative location of an image in this repo (ex. /assets/img/feature.jpg), or a full url to an image elsewhere
 featured-image: postcard3
 # optional: add extra padding around collection title for a larger image feature. 
-home-title-y-padding: 10em # Default is 8em
+home-title-y-padding: 12em # Default is 8em
 # optional: change position of background image, center, top, bottom
-home-banner-image-position: # Default is center
+home-banner-image-position: bottom # Default is center
 
 ##########
 # ITEM PAGE
@@ -41,7 +41,7 @@ locations-stopwords: # set of subjects separated by ; that will be removed from 
 auto-center-map: true # have the map auto fit all features into its view
 latitude: 46.727485 # to manually center map if not using auto-center-map option
 longitude: -117.014185 # to manually center map if not using auto-center-map option
-zoom-level: 5 # zoom level for map if not using auto-center-map option
+zoom-level: 10 # zoom level for map if not using auto-center-map option
 map-base: Esri_WorldStreetMap # set default base map, choose from: Esri_WorldStreetMap, Esri_NatGeoWorldMap, Esri_WorldImagery, OpenStreetMap_Mapnik
 map-search: true # true/false, not suggested with large collections
 map-search-fuzziness: 0.35 # fuzzy search range from 1 = anything to 0 = exact match only
@@ -78,6 +78,7 @@ search-child-objects: true # true / false - if true, child objects will appear o
 
 ##########
 # ADVANCED OPTIONS
+advanced-search: true
 #
 
 # NAVBAR COLORS
